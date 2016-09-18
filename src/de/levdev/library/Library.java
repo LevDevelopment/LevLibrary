@@ -34,7 +34,7 @@ public class Library extends JavaPlugin{
             //}
 
             register.getCommandRegister().registerCommand("lib", "", new Command_Lib());
-            //System.out.println("REGISTERED");
+            System.out.println("REGISTERED");
         }).start();
     }
 
